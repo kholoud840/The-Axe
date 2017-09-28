@@ -21,17 +21,16 @@ a{
   max-width: 100%;
   margin:0 auto;
   padding:0 $unit;
-}
-main{
-
-  .content{
-    @media (min-width:800px){
-      display: flex;
-    }
+  @media (min-width:800px){
+    display: flex;
   }
-
-
 }
-.main-section{
+
+
+
+
+
+
+main{
   flex:1;
 }

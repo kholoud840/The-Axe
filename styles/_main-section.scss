@@ -1,6 +1,5 @@
 
 .cards-wrapper {
-  padding: 0 $unit;
   @media (min-width: 800px) {
     display: grid;
     grid-template-columns: repeat(2, 1fr);

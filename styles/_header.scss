@@ -2,7 +2,7 @@ header {
   padding: $unit-huge 0;
   .content {
     @media (min-width: 800px) {
-      display: flex;
+      //display: flex;
       justify-content: space-between;
       align-items: center;
     }
@@ -32,7 +32,7 @@ header {
 
 nav {
   ul {
-    margin-right: -$unit-huge;
+    margin-right: -$unit;
     text-align: center;
 
     @media(min-width: 500px) {
