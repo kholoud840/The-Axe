@@ -1,0 +1,57 @@
+aside {
+  flex-basis: 200px;
+  text-align: center;
+  @media (min-width: 800px) {
+    padding-right: 100px;
+    text-align: initial;
+  }
+}
+
+.aside-title {
+  text-transform: capitalize;
+  position: relative;
+  margin-bottom: $unit-large;
+
+  @media (min-width: 800px) {
+    margin-bottom: $unit-huge;
+    &:before {
+      content: "";
+      position: absolute;
+      top: -16px;
+      display: block;
+      width: 20px;
+      height: 4px;
+      background: $main-color;
+    }
+
+  }
+}
+
+.aside-menu {
+  margin-bottom: $unit-huge;
+}
+
+.aside__item {
+
+  border-bottom: 1px solid #eee;
+  @media (min-width: 800px) {
+    margin-bottom: $unit;
+    border-bottom: none;
+  }
+
+  a {
+    color: $secondary-color;
+    text-transform: capitalize;
+    font-weight: 700;
+    padding: 20px;
+
+    &:hover {
+      color: #666;;
+    }
+
+    @media (min-width: 800px) {
+      padding: 0;
+    }
+  }
+
+}
