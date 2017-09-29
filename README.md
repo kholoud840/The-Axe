@@ -9,10 +9,7 @@ I got this layout from [dribbble](https://dribbble.com/shots/3821130-Layout-Down
 
 ## HTML/CSS Result
 
-![](image/The-Axe-index.html.png)
-- mobile view
-
-![](image/m.The-Axe-index.html.png)
+![](image/frame-generic.png)
 
 
 
